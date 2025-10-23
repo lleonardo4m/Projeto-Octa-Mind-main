@@ -18,7 +18,8 @@ header{
     background: var(--color02)
 }
 
-    .login{         
+    .login{ 
+            align-items: center;        
             position: absolute;
             top: 50%;
             left: 50%;
@@ -26,6 +27,13 @@ header{
             padding: 50px;
             border-radius: 10%;
            }
+
+    .login img{
+        width: 50px;
+        align-items: center;
+    }
+           
+
     h1{
         text-align: center;
     }        
